@@ -23,6 +23,11 @@
   language: system
   entry: prettier -c
   types_or: [json, yaml]
+- id: standard
+  name: standard
+  language: system
+  entry: standard --fix
+  types: [javascript]
 - id: pylint
   name: pylint
   language: system
