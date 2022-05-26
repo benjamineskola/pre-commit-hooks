@@ -45,3 +45,8 @@
   entry: mypy
   types: [python]
   pass_filenames: false
+- id: rubocop
+  name: rubocop
+  language: system
+  types: [ruby]
+  entry: rubocop -A
