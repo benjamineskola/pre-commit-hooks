@@ -26,7 +26,7 @@
 - id: standard
   name: standard
   language: system
-  entry: standard --fix
+  entry: semistandard --fix
   types: [javascript]
 - id: pylint
   name: pylint
