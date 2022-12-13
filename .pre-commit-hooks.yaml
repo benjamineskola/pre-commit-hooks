@@ -21,7 +21,7 @@
 - id: prettier
   name: prettier
   language: system
-  entry: prettier -c
+  entry: prettier -w
   types_or: [json, yaml]
 - id: standard
   name: standard
