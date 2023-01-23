@@ -22,7 +22,7 @@
   name: prettier
   language: system
   entry: prettier -w
-  types_or: [json, yaml]
+  types_or: [json, yaml, css, scss]
 - id: rome
   name: rome
   language: system
