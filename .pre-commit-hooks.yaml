@@ -22,12 +22,12 @@
   name: prettier
   language: system
   entry: prettier -w
-  types_or: [json, yaml, css, scss]
+  types_or: [yaml, css, scss]
 - id: rome
   name: rome
   language: system
   entry: rome ci
-  types_or: [javascript, ts]
+  types_or: [javascript, ts, json]
 - id: pylint
   name: pylint
   language: system
