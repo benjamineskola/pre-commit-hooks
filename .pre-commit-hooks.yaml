@@ -23,10 +23,10 @@
   language: system
   entry: prettier -w
   types_or: [yaml, css, scss]
-- id: rome
-  name: rome
+- id: biome
+  name: biome
   language: system
-  entry: rome ci
+  entry: biome ci
   types_or: [javascript, ts, json]
 - id: pylint
   name: pylint
